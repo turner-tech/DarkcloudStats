@@ -24,10 +24,12 @@ export default class App extends Component {
         <Container>
           <Header>
             <Left>
-              <Button transparent>{/* <Icon name="menu" /> */}</Button>
+              <Button transparent>
+                <Icon name="menu" />
+              </Button>
             </Left>
             <Body>
-              <Title>Header</Title>
+              <Title>Dark Souls</Title>
             </Body>
             <Right />
           </Header>

@@ -18,13 +18,12 @@ export class WeaponsPage extends Component {
       <Container>
         <Content>
           {ToanWeapons.map((weapon, index) => (
-            <Card>
+            <Card key={index}>
               <CardItem header>
                 <Text>{weapon.name}</Text>
               </CardItem>
               <CardItem cardBody>
                 <Image
-                  key={index}
                   source={weapon.image}
                   style={{height: 50, width: 50, flex: 0, marginLeft: 20}}
                 />
